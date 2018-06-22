@@ -20,13 +20,7 @@ $("body").on('mouseover', 'a', function (e) {
 		.removeAttr('href');
 });
 
-$('#fullpage').fullpage({
-	navigation: true,
-	sectionsColor: ['#000000', '#000000'],
-	anchors: ['home', 'contact'],
-	navigationTooltips: ['Home', 'Contact'],
-	scrollOverflow:false
-});
+$('#fullpage').fullpage();
 
 particlesJS('particles-js', {
 	"particles": {
