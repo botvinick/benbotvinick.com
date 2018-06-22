@@ -10,6 +10,7 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "font-awesome": "^4.7.0",
+    "forcedomain": "^1.0.0",
     "fullpage.js": "^2.9.7",
     "http-errors": "~1.6.2",
     "jquery": "latest",
