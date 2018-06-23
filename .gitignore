@@ -72,5 +72,8 @@ typings/
 # Serverless directories
 .serverless
 
+# Webpack
+public/javascript
+
 # Jetbrains
 .idea/
