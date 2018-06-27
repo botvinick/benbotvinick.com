@@ -15,7 +15,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 app.use(forcedomain({
-	hostname: 'btvnk.io',
+	hostname: 'benbotvinick.com',
 	protocol: 'https'
 }));
 
