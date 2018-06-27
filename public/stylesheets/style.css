@@ -49,7 +49,7 @@ html, body {
 
 footer {
 	opacity: 1;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -80,6 +80,7 @@ footer a:hover, footer i:hover {
 	top: 50%;
 	right: 10px;
 	transform: translate(0, -50%);
+	background-color: #222;
 }
 
 .social a {
