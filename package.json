@@ -6,17 +6,8 @@
     "start": "webpack && node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "font-awesome": "^4.7.0",
-    "forcedomain": "^1.0.0",
-    "fullpage.js": "^2.9.7",
-    "http-errors": "~1.6.2",
     "jquery": "latest",
-    "morgan": "~1.9.0",
-    "particles.js": "^2.0.0",
-    "pug": "2.0.0-beta11"
+    "particles.js": "^2.0.0"
   },
   "devDependencies": {
     "webpack": "^4.12.0",
