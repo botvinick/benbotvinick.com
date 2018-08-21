@@ -1,9 +1,9 @@
 require('particles.js');
 
 $(function () {
-	console.log('I love this font so much')
-	console.log('It\'s really quite beautiful')
-	console.log('If you wanna talk to me email me at one of the following addresses:\n')
+	console.log('I love this font so much.')
+	console.log('It\'s really quite beautiful.')
+	console.log('If you wanna talk to me email me at:')
 	console.log('ben@benbotvinick.com')
 	console.log('ben@unlit.io')
 	console.log('ben@bough.io')
