@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack && node ./bin/www"
+    "build": "webpack"
   },
   "dependencies": {
     "jquery": "latest",
