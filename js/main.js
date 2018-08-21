@@ -39,8 +39,6 @@ $("body").on('mouseover', 'a', function (e) {
 		.removeAttr('href');
 });
 
-$('#fullpage').fullpage();
-
 particlesJS('particles-js', {
 	"particles": {
 		"number": {
