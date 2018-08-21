@@ -1,13 +1,5 @@
 require('particles.js');
-
-$(function () {
-	console.log('I love this font so much.')
-	console.log('It\'s really quite beautiful.')
-	console.log('If you wanna talk to me email me at:')
-	console.log('ben@benbotvinick.com')
-	console.log('ben@unlit.io')
-	console.log('ben@bough.io')
-})
+require('./console.js');
 
 $(document).keydown(function (event) {
 	if (event.ctrlKey === true && (event.which === '61' || event.which === '107' || event.which === '173' || event.which === '109' || event.which === '187' || event.which == '189')) {
