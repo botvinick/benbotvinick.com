@@ -10,7 +10,7 @@ console.log('%c                               \n' +
     '           {`-,__.\'===,_       \n' +
     '           //`        `\\\\      \n' +
     '          //                   \n' +
-    '         `\\=   Hey, man.       \n' +
+    '         `\\=   hey man,        \n' +
     '                               ', 'background:black; color: white');
 
 // David Sedaris said this. I also said it a lot, but he said it first.
