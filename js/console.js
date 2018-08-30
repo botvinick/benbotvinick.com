@@ -12,5 +12,3 @@ console.log('%c                               \n' +
     '          //                   \n' +
     '         `\\=   hey man,        \n' +
     '                               ', 'background:black; color: white');
-
-// David Sedaris said this. I also said it a lot, but he said it first.
