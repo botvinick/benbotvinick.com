@@ -12,6 +12,8 @@ let minX;
 let maxX;
 
 function setup() {
+	frameRate(1);
+
 	createCanvas(600, 600);
 	minX = -width / 2;
 	maxX = width / 2;
@@ -19,6 +21,8 @@ function setup() {
 }
 
 function draw() {
+	console.log('Toothpicks: ' + picks.length);
+
 	background(255);
 	translate(width / 2, height / 2);
 	let factor = float(width) / (maxX - minX);
@@ -45,6 +49,4 @@ function draw() {
 	}
 
 	picks = picks.concat(next);
-
-	console.log(picks.length)
 }
