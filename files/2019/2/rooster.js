@@ -10,5 +10,5 @@ console.log('%c                               \n' +
     '           {`-,__.\'===,_       \n' +
     '           //`        `\\\\      \n' +
     '          //                   \n' +
-    '         `\\=  Ben Botvinick        \n' +
+    '         `\\=  Ben Botvinick    \n' +
     '                               ', 'background:black; color: white');
