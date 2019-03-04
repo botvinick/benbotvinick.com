@@ -1,10 +1,9 @@
 {
-  "name": "botvinick.io",
+  "name": "benbotvinick.com",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {
-    "jquery": "latest",
-    "particles.js": "^2.0.0"
+  "scripts": {
+    "build": "webpack"
   },
   "devDependencies": {
     "webpack": "^4.12.0",
