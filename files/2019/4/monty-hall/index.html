@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Monty Hall</title>
+
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.0/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<h1>Monty Hall Simulator</h1>
+		<form id="simulatorOptionsForm">
+			<fieldset>
+				<legend>Simulator options</legend>
+				Number of trials: <input autocomplete="off" type="text" id="trialsInput" value="1000"><br>
+				Number of doors: <input autocomplete="off" type="text" id="numDoorsInput" value="3"><br>
+				<button type="submit">Run simulator</button>
+			</fieldset>
+		</form>
+		<div id="resultsContainer"></div>
+	</body>
+</html>
