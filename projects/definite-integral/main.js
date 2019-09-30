@@ -15,9 +15,9 @@ function definiteIntegral(f, a, b, dx) {
 }
 
 $(() => {
-	const a = $('input[name="a"]').val();
-	const b = $('input[name="b"]').val();
-	const dx = $('input[name="dx"]').val();
+	const a = Number($('input[name="a"]').val());
+	const b = Number($('input[name="b"]').val());
+	const dx = Number($('input[name="dx"]').val());
 	const f = x => eval($('input[name="f"]').val());
 	$('#output').text(definiteIntegral(f, a, b, dx));
 
