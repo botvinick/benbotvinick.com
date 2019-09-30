@@ -15,12 +15,18 @@ function definiteIntegral(f, a, b, dx) {
 }
 
 $(() => {
+	const a = $('input[name="a"]').val();
+	const b = $('input[name="b"]').val();
+	const dx = $('input[name="dx"]').val();
+	const f = x => eval($('input[name="f"]').val());
+	$('#output').text(definiteIntegral(f, a, b, dx));
+
 	$('#definiteIntegralForm').submit(e => {
 		e.preventDefault();
 		const a = $('input[name="a"]').val();
 		const b = $('input[name="b"]').val();
 		const dx = $('input[name="dx"]').val();
 		const f = x => eval($('input[name="f"]').val());
-		$('#output').text(definiteIntegral(f, a, b, dx))
+		$('#output').text(definiteIntegral(f, a, b, dx));
 	});
 });
