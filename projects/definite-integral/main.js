@@ -1,7 +1,3 @@
-function f(x) {
-	return 2 * x;
-}
-
 function definiteIntegral(f, a, b, dx) {
 	let area = 0;
 
