@@ -10,6 +10,19 @@ function definiteIntegral(f, a, b, dx) {
 	return area;
 }
 
+function display(f, a, b, dx) {
+	$('#output').text(definiteIntegral(f, a, b, dx));
+
+	const xValues = math.range(a, b, dx).toArray();
+	const yValues = xValues.map(x => f(x));
+
+	Plotly.newPlot('plot', [{
+		x: xValues,
+		y: yValues,
+		type: 'scatter'
+	}])
+}
+
 $(() => {
 	$('#definiteIntegralForm').submit(e => {
 		e.preventDefault();
@@ -17,6 +30,6 @@ $(() => {
 		const b = Number($('input[name="b"]').val());
 		const dx = Number($('input[name="dx"]').val());
 		const f = math.evaluate(`f(x) = ${$('input[name="f"]').val()}`);
-		$('#output').text(definiteIntegral(f, a, b, dx));
+		display(f, a, b, dx)
 	});
 });

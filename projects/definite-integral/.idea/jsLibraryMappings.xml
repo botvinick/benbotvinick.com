@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{math, p5, p5.dom}" />
+    <file url="PROJECT" libraries="{math, p5, p5.dom, plotly-1.35.2}" />
   </component>
 </project>
