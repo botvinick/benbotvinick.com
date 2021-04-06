@@ -9,7 +9,7 @@ export default function Home() {
       <NextSeo title="Ben Botvinick" />
 
       <main className="h-screen bg-black py-8 px-12 overflow-hidden">
-        <h1 className="text-7xl sm:text-8xl md:text-9xl font-black text-white -ml-2 md:-ml-3">
+        <h1 className="text-6xl sm:text-8xl md:text-9xl font-black text-white -ml-2 md:-ml-3">
           <div>Ben</div>
           <span className="break-all bg-clip-text text-transparent font-black bg-gradient-to-r from-pink-500 to-pink-400">Botv</span>
           inick
