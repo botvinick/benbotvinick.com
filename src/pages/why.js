@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 export default function Why() {
   return (
     <div>
-      <NextSeo title="Ben Botvinick" />
+      <NextSeo title="Why I Dropped My Classes" />
 
       <main className="p-8 max-w-lg">
         <h3 className="font-black mb-12">Why I Dropped My Classes</h3>
