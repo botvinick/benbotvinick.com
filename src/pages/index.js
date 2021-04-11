@@ -24,7 +24,7 @@ export default function Home() {
           <div>
             When I was seventeen I founded a company called{' '}
             <a href="https://metalabs.io" target="_blank" rel="noreferrer" className="transition bg-clip-text text-transparent font-black bg-gradient-to-r from-blue-300 to-blue-400 hover:text-white">Meta Labs</a>.
-            Six months later I gave up on school. I'm eighteen now so I don't really know what's next.
+            I'm eighteen now so I don't really know what's next.
           </div>
 
           <div>
