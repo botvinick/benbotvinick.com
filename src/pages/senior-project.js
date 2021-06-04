@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <NextSeo title="Senior Project — Ben Botvinick" />
 
-      <main className="h-screen bg-tan-50 py-8 px-12">
+      <main className="h-screen bg-tan-50 py-8 px-6 sm:px-12">
         <img src="/img/hyper.svg" alt="Hyper logo" className="w-48" />
 
         <div className="mt-8 space-y-6 text-black text-sm max-w-prose">
