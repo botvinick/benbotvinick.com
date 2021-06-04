@@ -14,8 +14,8 @@ export default function Home() {
           <span
             className="text-transparent bg-clip-text bg-cover bg-center bg-pink-300"
             style={{ backgroundImage: 'url(/img/sky.jpeg)' }}
-          >
-          Botv</span>
+          >Botv
+          </span>
           inick
         </h1>
 
