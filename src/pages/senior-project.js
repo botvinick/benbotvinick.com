@@ -71,8 +71,7 @@ export default function Home() {
           <div>
             This isn't just my senior project; it's my life's work. It'd be impossible to wrap everything we do at Hyper
             into a neat presentation. So if you're curious to learn more about the company, the team, the mission, or
-            our plans for the future, feel free to shoot me an email at ben [at] hyper [dot] co or text me at (215) 880-4458. I
-            look forward to hearing from you.
+            our plans for the future, feel free to shoot me an email at ben [at] hyper [dot] co. I look forward to hearing from you.
           </div>
 
           <div>
